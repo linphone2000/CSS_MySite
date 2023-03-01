@@ -1,0 +1,144 @@
+body{
+    background-color: #EEEEEE;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+.one{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: #c6fffe;
+    height: 55rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+h1{
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #419c9c;
+    line-height: 2;
+}
+h2{
+    font-family: 'Labrada', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #419c9c;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.botton-cloud{
+    position: absolute;
+    left: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+}
+.mountain{
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+.navbar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+    transition: 0.3s;
+}
+.navbar:hover{
+    background-color: rgb(148, 142, 142);
+    border-radius: 10px;
+}
+.profile{
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+}
+.profilepone{
+    width: 105px;
+    height: 85px;
+    border-radius: 50%;
+}
+.profile_paragraph{
+    text-align: center;
+    width: 50%;
+    margin: 0px auto 0px;   
+
+}
+.skillpone{
+    float: left ;
+    width: 25%;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    position: relative;
+    margin: auto 5px auto 5px;
+}
+.footer-link:hover{
+    color:white;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.ngayotetheepone{
+    float: right ;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+hr{
+    margin: 0 auto 10px 0;
+    border-style: none none dotted none;
+    width: 20%;
+    border-width: 10px;
+    border-color: rgb(74, 68, 68);
+    margin: 15px auto 15px auto;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.btn-style{
+    background-color: #5ea4a4;
+    width: 150px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-style: none;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #19767a;
+}
+.btn-style:hover{
+    background-color: #66bfbf;
+}
