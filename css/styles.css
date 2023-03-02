@@ -68,7 +68,7 @@ a{
 .profilepone{
     width: 105px;
     height: 85px;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 .profile_paragraph{
     text-align: center;
@@ -87,6 +87,8 @@ a{
     text-decoration: none;
     position: relative;
     margin: auto 5px auto 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer-link:hover{
     color:white;
@@ -141,4 +143,7 @@ hr{
 }
 .btn-style:hover{
     background-color: #66bfbf;
+}
+.contact-me{
+    margin-bottom: 50px;
 }
