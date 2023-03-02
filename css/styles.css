@@ -59,6 +59,7 @@ a{
 .navbar:hover{
     background-color: rgb(148, 142, 142);
     border-radius: 10px;
+    cursor:pointer;
 }
 .profile{
     margin: auto;
@@ -74,7 +75,7 @@ a{
     text-align: center;
     width: 50%;
     margin: 0px auto 0px;   
-
+    line-height: 2;
 }
 .skillpone{
     float: left ;
@@ -87,8 +88,6 @@ a{
     text-decoration: none;
     position: relative;
     margin: auto 5px auto 5px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 .footer-link:hover{
     color:white;
@@ -146,4 +145,13 @@ hr{
 }
 .contact-me{
     margin-bottom: 50px;
+}
+.contact-message{
+    width:25%;
+    margin: 25px auto;
+    line-height: 2;
+}
+.copyright{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
